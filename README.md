@@ -106,7 +106,7 @@ Since credit risk is an inherently unbalanced classification problem, the imbala
 
 
 ### Challenges and Difficulties Encountered
-
+No specific challenges or difficulties were encountered during execution of these activities.
 
 ## Summary:
 
