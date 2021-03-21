@@ -2,11 +2,11 @@
 
 ## Overview:
 
-Using machine learning models as well as oversampling and undersampling algorithms, assess the best model to predict credit risk. Because credit risk is an inherently unbalanced classificatin problem, with good loans outnumbering the bad, different algorithms will be created, trained, and evaluated to determine the best model to predict credit risk.  A dataset from LendingClub, a peer to peer lending services company, will be used to preform the model evaluations.
+Using machine learning models as well as oversampling and undersampling algorithms, are assessed to determine the best model to predict credit risk. Because credit risk is an inherently unbalanced classification problem, with good loans outnumbering the bad, different algorithms/models will be created, trained, and evaluated to determine the best model to predict credit risk.  A dataset from LendingClub, a peer to peer lending services company, will be used to preform the model prediction performance evaluations.
 
 ## Purpose:
 
-The following algorithms and machine learning models are created, trained, and evaluated on their prediction performance.
+The following algorithms and machine learning models are created, trained, and evaluated for their prediction performance.
 Since credit risk is an inherently unbalanced classification problem, the imbalanced-learn and scikit-learn libraries are used to build and evaluate the models to predict credit risk.
 
 * Oversampling the data using the RandomOverSampler algorithm
@@ -110,4 +110,4 @@ No specific challenges or difficulties were encountered during execution of thes
 
 ## Summary:
 
-Using the different resampling algorithms with Logistic Regressions did not have significantly different performance. And all four techniques were poor performers in predicting credit risk.  Oversampling, Undersampling, or a combination of the two only produced Balanced Accuracy scores ranging from 54% to 66%. The Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier machine learning models significantly increased the Balanced Accuracy scores to to 79% and 93% respectively. Not only did the Easy Ensemble AdaBoost Classifier have the highest Balanced Accuracy score, but also the highest Precision and Recall for "high-risk" customers, making it the best model to proceed with the predict credit risk.
+Using the different resampling algorithms with Logistic Regressions did not have significantly different performance. And all four techniques were poor performers in predicting credit risk.  Oversampling, Undersampling, or a combination of the two only produced Balanced Accuracy scores ranging from 54% to 66%. The Balanced Random Forest Classifier and the Easy Ensemble AdaBoost Classifier machine learning models significantly increased the Balanced Accuracy scores to 79% and 93% respectively. Additionally, Precision helps us if there are high costs associated with False Positives while Recall helps us if there is high cost associated with False Negatives.  The Easy Ensemble AdaBoost Classifier had the highest Balanced Accuracy score, but also the highest recall for "high-risk" ("high-risk" predicted as "low-risk" is higher cost error for the lending company).  For "low-risk" customers, this model also had the highest Precision and Recall ("low-risk" predicated as "high-risk" is lower cost error for the lending company).  Based the accuracy score and also looking at precision and recall scores, the Easy Ensemble AdaBoost Classifier is the best model to proceed with to predict credit risk. 
