@@ -88,7 +88,7 @@ Since credit risk is an inherently unbalanced classification problem, the imbala
 -- Balanced Random forest Classifier method results in a balanced accuracy score of 79%.
 
 ##### Balanced Random Forest Imbalanced Classification Report
-![](images/balanced_random_forest_classifer.png)
+![](images/balanced_random_forest_classifier.png)
 
 
 #### 6. Easy Ensemble Adaboost Classifier
@@ -102,7 +102,7 @@ Since credit risk is an inherently unbalanced classification problem, the imbala
 -- Balanced Random forest Classifier method results in a balanced accuracy score of 93%.
 
 ##### Easy Ensemble Adaboost Imbalanced Classification Report
-![](images/easy_ensemble_adaboost_classifer.png)
+![](images/easy_ensemble_adaboost_classifier.png)
 
 
 ### Challenges and Difficulties Encountered
